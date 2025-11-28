@@ -6,11 +6,12 @@
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy:core": "npx hardhat run scripts/deploy.js --network coreTestnet",
     "node": "npx hardhat node"
   },
   "devDependencies": {
     "hardhat": "^2.19.0",
-    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+    "@nomicfoundation/hardhat-toolbox": " 4.0.0"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0"
